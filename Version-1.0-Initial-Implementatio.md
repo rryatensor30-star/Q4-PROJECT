@@ -96,15 +96,7 @@ Streak counter increments each time habit is added
 
 Basic validation for empty inputs
 
-
-
-### Version 2.15 - Updated interface and fixed features and added feature
-
-Date: 25/03/2026
-
-
-
-
+Persistent data storage placed in txt files
 
 ### Version 2.11
 
@@ -159,7 +151,7 @@ Date: 19/03/2026
 
 ### Version 2.15
 
-Date: Date: 25/03/2026
+Date: 25/03/2026
 
 
 
@@ -168,4 +160,36 @@ Date: Date: 25/03/2026
 * ###### Habits now store both streak and date (e.g., "habit": {"streak": 5, "date": "2026-03-26"})
 * ###### Original habits only stored streak
 * ###### File format updated from habit|streak to habit|streak|date
+
+### Version 2.16
+
+Date: 29/03/2026
+
+
+
+###### &#x20;Enhanced deadline display features
+
+* ###### Added days-left calculation for each deadline
+* ###### Implemented OVERDUE status for past due dates
+* ###### Visual table formatting with borders and headers
+* ###### Added purpose/subject field for deadlines
+
+### Version 2.2
+
+Date: 05/4/2026
+
+
+
+###### &#x20;Input validation and error handling
+
+* ###### Empty input detection for habits and tasks
+* ###### Invalid date format error messages
+* ###### Task not found notifications
+* ###### Graceful error recovery without crashes
+* ###### Case-insensitive input handling for all user entries
+
+###### 
+
+###### 
+
 
