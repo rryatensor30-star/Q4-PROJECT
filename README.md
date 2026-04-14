@@ -56,12 +56,13 @@ main() - Main program loop
 Menu-based navigation with 4 options:
 
 
-
 Add Habit
 
 Add Deadline to task
 
 Display All
+
+Complete/remove a task
 
 Exit
 
