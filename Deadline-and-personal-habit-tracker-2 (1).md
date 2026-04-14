@@ -22,11 +22,15 @@
 
 &#x09;a. Add habit:
 
-&#x09;- Lets you input a habit (e.g., “exercise”) and a date
+&#x09;- Input a habit (e.g., “exercise”)
+
+&#x09;- Input a date (YYYY-MM-DD format)
 
 &#x09;- If it’s a new habit → starts a streak at 1
 
-&#x09;- If it already exists → increases the streak by +1
+&#x09;- If it already exists and is logged the next day → increases the streak by +1
+
+&#x09;- Missing a day → streak resets to 1
 
 &#x09;b. Add deadline:
 
@@ -38,7 +42,7 @@
 
 &#x09;    Due date (YYYY-MM-DD)
 
-&#x09;- Saves the task and marks it as not completed yet
+&#x20;           Saves the task and marks it as not completed yet
 
 &#x09;c. Display:
 
@@ -55,12 +59,18 @@
 &#x09;	DONE → marked complete
 
 &#x09;d. Complete/Remove Task:
-	Completes/Removes the chosen task.
-	e. Exit:
+
+&#x09;	Enter task name
+Completes/Removes the chosen task:
+
+&#x09;		1. Type 'complete' to mark as done
+
+&#x09;		2. Type 'delete' to remove the task
+e. Exit:
 
 &#x09;- Exits the program
 
-5.The data will save automatically into a txt file
+5.The data will save automatically into a txt file(habit\_deadline\_data.txt)
 
 6.You are allowed to input again and again until you want to leave the program.
 
@@ -82,8 +92,8 @@ It saves all your habits (with their streaks) and deadlines so that when you clo
 * Tracks task status (Pending, Overdue, Done) based on due dates
 * Automatically saves and loads data using a text file
 * Simple command-line interface for easy navigation
-
-
+* Complete or delete existing tasks
+* Automatic streak calculation (resets if more than 1 day missed)
 
 
 
@@ -143,6 +153,9 @@ The authors are not responsible for any damages or issues caused by the use of t
 4\. Betque, Kristelle
 
 5\. Tambak, Sheryn
+
+6\. Usman, Abdurrauf
+
 
 6\. Usman, Abdurrauf
 
