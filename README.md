@@ -29,7 +29,7 @@ File format specifications:
 
 &#x09;Habits: habit|streak
 
-&#x09;Deadlines: task|subject|due\_date|completed
+&#x09;Deadlines: task|subject|due\_date|stauts
 
 
 
