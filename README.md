@@ -53,7 +53,7 @@ main() - Main program loop
 
 #### 4\. User Interface
 
-Menu-based navigation with 4 options:
+Menu-based navigation with 5 options:
 
 
 Add Habit
